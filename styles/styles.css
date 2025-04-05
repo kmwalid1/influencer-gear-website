@@ -181,6 +181,66 @@ margin: 0 auto;
       margin-left: 15px;
       
  }
+ .see-more{
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     color: #E02C6D;
+     font-size: 1rem;
+     font-weight: 700;
+     gap: 5px;
+ }
+
+ /* feature section related styles */
+ .feature-section{
+     max-width: 1110px;
+     height: 270px;
+     margin: 0 auto;
+     margin-top: 100px;
+     display: flex;
+     gap: 95px;
+     
+ }
+ .feature-content{
+     max-width: 610px;
+
+ }
+ .feature-title{
+     font-size: 2.30rem;
+     font-weight: 700;
+ }
+ .feature-text{
+     font-size: 1rem;
+     font-weight: 700;
+     color: #6C6C6C;
+ }
+ .feature-btn{
+     color: white;
+     font-size: 1rem;
+     font-weight: 700;
+     border: none;
+     background-color: #E02C6D;
+     width: 155px;
+     height: 45px;
+ }
+
+ /* Footer related styles */
+
+ .footer{
+     background-color: #0A0826;
+     text-align: center;
+     color: white;
+     padding: 50px 0;
+     margin-top: 100px;
+ }
+ .footer-title{
+     font-size: 1.5rem;
+     font-weight: 700;
+ }
+ .footer-text{
+     font-weight: 700;
+     font-size: 0.8rem;
+ }
  
 
  /* responsive styles */
@@ -223,6 +283,15 @@ margin: 0 auto;
       }
       .card{
           margin: 0 auto;
+      }
+      .feature-section{
+          flex-direction: column-reverse;
+          margin-top: 3400px;
+          gap: 30px;
+      }
+      .feature-content{
+          text-align: center;
+          
       }
 
         
